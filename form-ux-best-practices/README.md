@@ -17,13 +17,16 @@ Use $form-ux-best-practices on this signup form spec and give me P0/P1/P2 issues
 
 ## Local quickstart
 
-```bash
-# 1) Validate skill structure
-python3 $CODEX_HOME/skills/.system/skill-creator/scripts/quick_validate.py <SKILLS_REPO_PATH>/form-ux-best-practices
+With Python 3.10 or later, run this command from the repository root:
 
-# 2) Run static form audit on a sample HTML file
-python3 <SKILLS_REPO_PATH>/form-ux-best-practices/scripts/form_audit.py /tmp/form_sample.html
+```bash
+python3 form-ux-best-practices/scripts/form_audit.py \
+  form-ux-best-practices/assets/example_input_signup.html
 ```
+
+The example deliberately leaves the email field without a label, an email input type or autocomplete. The report identifies these issues so you can see how the audit works. To audit your own form, replace the sample path with your HTML file's path.
+
+The command exits with status `1` when it finds issues, `0` when it finds none, and `2` for a usage or file error. Status `1` is expected for this example.
 
 ## Install via Codex `$skill-installer` (GitHub directory URL)
 
