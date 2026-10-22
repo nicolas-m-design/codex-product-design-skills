@@ -29,7 +29,7 @@ python3 <SKILLS_REPO_PATH>/form-ux-best-practices/scripts/form_audit.py /tmp/for
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --url https://github.com/<owner>/<repo>/tree/main/form-ux-best-practices
+  --url https://github.com/nicolas-m-design/codex-product-design-skills/tree/main/form-ux-best-practices
 ```
 
 Restart Codex to pick up new skills.

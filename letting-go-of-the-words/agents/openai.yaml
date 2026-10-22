@@ -1,0 +1,4 @@
+interface:
+  display_name: "Letting Go of the Words"
+  short_description: "Write web content around real visitor questions"
+  default_prompt: "Use $letting-go-of-the-words to rewrite this web content around the reader’s questions and next action."
