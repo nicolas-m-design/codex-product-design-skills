@@ -1,7 +1,8 @@
 ---
 name: wcag-21-aa-web-ui-audit
 description: Audit web UI for WCAG 2.1 Level AA and produce a remediation backlog. Use when users ask for WCAG 2.1 AA audits, accessibility reviews, conformance reports, remediation plans, keyboard/focus/contrast/reflow/forms/ARIA/status-message checks.
-version: 1.0.0
+metadata:
+  version: "1.0.0"
 ---
 
 # WCAG 2.1 AA Web UI Audit

@@ -30,7 +30,7 @@ Use $email-ux-best-practices mode=html-lite on this plain text and include a pla
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --url https://github.com/<owner>/<repo>/tree/main/email-ux-best-practices
+  --url https://github.com/nicolas-m-design/codex-product-design-skills/tree/main/email-ux-best-practices
 ```
 
 Restart Codex to pick up new skills.
