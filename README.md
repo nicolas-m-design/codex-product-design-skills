@@ -26,7 +26,7 @@ Use $skill-installer to install letting-go-of-the-words from
 https://github.com/nicolas-m-design/codex-product-design-skills/tree/main/letting-go-of-the-words
 ```
 
-For another skill, use its folder link from the table above. You can also copy a complete skill folder into your local Codex skills directory. Keep its `references/`, `assets/`, `scripts/` and `agents/` folders when present; they provide the guidance, examples, helpers and metadata used by that skill.
+For another skill, replace the final folder name in that URL with the name of its folder in this repository. You can also copy a complete skill folder into your local Codex skills directory. Keep its `references/`, `assets/`, `scripts/` and `agents/` folders when present; they provide the guidance, examples, helpers and metadata used by that skill.
 
 ## Try it on your work
 
